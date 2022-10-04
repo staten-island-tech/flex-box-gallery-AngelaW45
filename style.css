@@ -7,10 +7,10 @@ box-sizing: border-box;
 font-size: 62.5%; /* Normally 100% is 16px, we want the size to be 10pz, so we do 62.5% */
 }
 body {
-    background-color: rgb(193, 148, 235);
+    background-color: rgb(181, 129, 230);
 }
 
-.parent {
+.parent1 {
     font-size: 2rem;
     text-align: center;
     margin-top: 3rem;
@@ -28,15 +28,24 @@ body {
     width: 75rem;
     margin: 3rem auto auto auto;
 }
+.parent2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+}
+
 .box {
-    font-size: 4rem;
-    background-color: blueviolet;
-    width: 22vw;
+    width: 30vw;
     padding: 20px 15px 20px 15px;
-    margin: 10px auto;
+    font-size: 4rem;
+    margin: 10rem auto;
     text-align: center;
+    background-color: rgb(168, 84, 216);
     border-radius: 15px;
 }
+
+
 .text {
     font-size: 2rem;
     width: 20vw;
