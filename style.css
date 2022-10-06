@@ -32,11 +32,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50vw;
+    width: 30vw;
 }
 
 .box {
-    width: 30vw;
+
     padding: 20px 15px 20px 15px;
     font-size: 4rem;
     margin: 10rem auto;
