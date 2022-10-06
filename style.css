@@ -6,13 +6,14 @@ margin: 0;
 box-sizing: border-box;
 font-size: 62.5%; /* Normally 100% is 16px, we want the size to be 10pz, so we do 62.5% */
 }
+
 body {
     background-color: rgb(181, 129, 230);
+    text-align: center;
 }
 
 .parent1 {
     font-size: 2rem;
-    text-align: center;
     margin-top: 3rem;
 }
 .px-size {
@@ -30,17 +31,18 @@ body {
 }
 .parent2{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 30vw;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: auto;
 }
 
 .box {
-
+    width: 20vw;
+    height: 20vw;
     padding: 20px 15px 20px 15px;
     font-size: 4rem;
     margin: 10rem auto;
-    text-align: center;
     background-color: rgb(168, 84, 216);
     border-radius: 15px;
 }
