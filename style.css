@@ -36,9 +36,10 @@ body {
   align-items: flex-start;
   width: 80%;
   margin: auto;
+  transition: all 0.3s;
 }
 
-.box {
+.box{
   width: 20vw;
   height: 20vw;
   padding: 20px 15px 20px 15px;
@@ -49,13 +50,17 @@ body {
   box-shadow: 15px 15px 5px rgb(151, 113, 156);
 }
 
+.box:hover{
+  transform: scale(1.2);
+  outline: 0.5rem solid rgb(150, 70, 199);
+}
+
+.parent2:hover .box:hover:not(:hover){
+transform:scale(0.5);
+opacity: 0.5;
+}
+
 img {
   width: 18vw;
   margin-top: 1.5rem;
-}
-
-.text {
-  font-size: 2rem;
-  width: 20vw;
-  margin: 10px auto;
 }
