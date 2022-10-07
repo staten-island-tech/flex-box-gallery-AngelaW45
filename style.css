@@ -1,55 +1,59 @@
 html,
 body,
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-size: 62.5%; /* Normally 100% is 16px, we want the size to be 10pz, so we do 62.5% */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* Normally 100% is 16px, we want the size to be 10pz, so we do 62.5% */
 }
 
 body {
-    background-color: rgb(181, 129, 230);
-    text-align: center;
+  background-color: rgb(181, 129, 230);
+  text-align: center;
 }
 
 .parent1 {
-    font-size: 2rem;
-    margin-top: 3rem;
+  font-size: 2rem;
+  margin-top: 3rem;
 }
 .px-size {
-    font-size: 50px;
+  font-size: 50px;
 }
 .rem-size {
-    font-size: 2.5rem;
-    margin-top: 1.5rem;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
 }
 .em-size {
-    font-size: 1em;
-    text-align: left;
-    width: 75rem;
-    margin: 3rem auto auto auto;
+  font-size: 1em;
+  text-align: left;
+  width: 75rem;
+  margin: 3rem auto auto auto;
 }
-.parent2{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 80%;
-    margin: auto;
+.parent2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
 }
 
 .box {
-    width: 20vw;
-    height: 20vw;
-    padding: 20px 15px 20px 15px;
-    font-size: 4rem;
-    margin: 10rem auto;
-    background-color: rgb(168, 84, 216);
-    border-radius: 15px;
+  width: 20vw;
+  height: 20vw;
+  padding: 20px 15px 20px 15px;
+  font-size: 4rem;
+  margin: 10rem auto;
+  background-color: rgb(168, 84, 216);
+  border-radius: 15px;
 }
 
+img {
+  width: 18vw;
+  margin-top: 1.5rem;
+}
 
 .text {
-    font-size: 2rem;
-    width: 20vw;
-    margin: 10px auto;
+  font-size: 2rem;
+  width: 20vw;
+  margin: 10px auto;
 }
