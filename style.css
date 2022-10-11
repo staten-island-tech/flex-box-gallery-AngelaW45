@@ -30,7 +30,7 @@ body {
   width: 75rem;
   margin: 3rem auto auto auto;
 }
-.parent2 {
+.parent3 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -55,9 +55,9 @@ body {
   outline: 0.5rem solid rgb(150, 70, 199);
 }
 
-.parent2:hover .box:hover:not(:hover){
-transform:scale(0.5);
-opacity: 0.5;
+.parent2:hover .box:not(:hover) {
+ transform: scale(0.8);
+ opacity: 0.3;
 }
 
 img {
