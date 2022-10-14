@@ -48,37 +48,50 @@ body {
   margin: 10rem auto;
   background-color: rgb(168, 84, 216);
   border-radius: 15px;
-  box-shadow: 15px 15px 5px rgb(151, 113, 156);
+  box-shadow: 15px 15px 5px rgb(116, 99, 114);
 }
 
 .box:hover{
   transform: scale(1.2);
-  outline: 0.5rem solid rgb(150, 70, 199);
+  outline: 0.5rem solid rgb(75, 101, 202);
+  animation: dot 8s infinite;;
 }
 
 .parent2:hover .box:not(:hover) {
  background-color: rgb(126, 109, 201);
  transform: scale(0.8);
- opacity: 0.3;
- animation: dot duration timing-function delay iteration-count direction fill-mode;
+ opacity: 0.5;
 }
+
+
 
 @keyframes dot{
 0% {
    left: 25%;
    bottom: 20%;
+   background-color: rgb(107, 204, 228);
 }
-50%{
+25%{
   left: 50%%;
   bottom: 20%;
+  background-color: rgb(97, 151, 221);
 }
-100%{
+50%{
   left: 75%;
   bottom: 20%;
+  background-color: rgb(127, 85, 245);
+}
+75% {
+  left: 50%;
+  bottom: 20%;
+  background-color: rgb(100, 165, 230);
+}
+100%{
+ left: 25%%;
+ bottom: 20%;
+ background-color: rgb(110, 215, 230);
 }
 }
-
-animation
 
 img {
   width: 18vw;
