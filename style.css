@@ -40,9 +40,9 @@ body {
   margin: 3rem auto auto auto;
 }
 
-.box{
-  width: 20vw;
-  height: 20vw;
+.box {
+  width: 25vw;
+  height: 25vw;
   padding: 20px 15px 20px 15px;
   font-size: 4rem;
   margin: 10rem auto;
@@ -51,46 +51,44 @@ body {
   box-shadow: 15px 15px 5px rgb(116, 99, 114);
 }
 
-.box:hover{
+.box:hover {
   transform: scale(1.2);
   outline: 0.5rem solid rgb(75, 101, 202);
-  animation: dot 8s infinite;;
+  animation: colorful 8s infinite;
 }
 
 .parent2:hover .box:not(:hover) {
- background-color: rgb(126, 109, 201);
- transform: scale(0.8);
- opacity: 0.5;
+  background-color: rgb(126, 109, 201);
+  transform: scale(0.8);
+  opacity: 0.5;
 }
 
-
-
-@keyframes dot{
-0% {
-   left: 25%;
-   bottom: 20%;
-   background-color: rgb(107, 204, 228);
-}
-25%{
-  left: 50%%;
-  bottom: 20%;
-  background-color: rgb(97, 151, 221);
-}
-50%{
-  left: 75%;
-  bottom: 20%;
-  background-color: rgb(127, 85, 245);
-}
-75% {
-  left: 50%;
-  bottom: 20%;
-  background-color: rgb(100, 165, 230);
-}
-100%{
- left: 25%%;
- bottom: 20%;
- background-color: rgb(110, 215, 230);
-}
+@keyframes colorful {
+  0% {
+    left: 25%;
+    bottom: 20%;
+    background-color: rgb(107, 204, 228);
+  }
+  25% {
+    left: 50%%;
+    bottom: 20%;
+    background-color: rgb(97, 151, 221);
+  }
+  50% {
+    left: 75%;
+    bottom: 20%;
+    background-color: rgb(127, 85, 245);
+  }
+  75% {
+    left: 50%;
+    bottom: 20%;
+    background-color: rgb(100, 165, 230);
+  }
+  100% {
+    left: 25%%;
+    bottom: 20%;
+    background-color: rgb(110, 215, 230);
+  }
 }
 
 img {
