@@ -96,8 +96,16 @@ img {
   margin-top: 1.5rem;
 }
 
-@media screen and (max-width: 1250px){
-  width: ;
-  width: 20vw;
-  height: 20vw;
+@media screen and (max-width: 844px){
+  .em-size {
+    width: 37rem;
+  }
+  .box {
+    width: 20vw;
+    height: 20vw;
+    padding: 20px 15px 20px 15px;
+    font-size: 2rem;
+    margin: 10rem auto;
+    (didn't change anything here yet)
+  }
 }
