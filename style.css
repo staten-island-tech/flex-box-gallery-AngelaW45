@@ -24,7 +24,6 @@ body {
   flex-wrap: wrap;
   margin: auto;
   width: 80%;
-  transition: all 0.3s;
 }
 .px-size {
   font-size: 50px;
@@ -49,6 +48,7 @@ body {
   background-color: rgb(168, 84, 216);
   border-radius: 15px;
   box-shadow: 15px 15px 5px rgb(116, 99, 114);
+  transition: all 0.3s;
 }
 
 .box:hover {
@@ -94,4 +94,10 @@ body {
 img {
   width: 18vw;
   margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 1250px){
+  width: ;
+  width: 20vw;
+  height: 20vw;
 }
